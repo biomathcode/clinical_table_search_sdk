@@ -39,7 +39,8 @@
     "dev": "tsup --watch",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "build:test": "tsc -p tsconfig.test.json",
-    "test": "npm run build:test && node --test --experimental-test-coverage --test-coverage-include=dist-test/lib/**/*.js --test-coverage-exclude=test/** --test-coverage-lines=90 --test-coverage-functions=90 --test-coverage-branches=80 test/*.test.cjs"
+    "test": "npm run build:test && node --test --experimental-test-coverage --test-coverage-include=dist-test/lib/**/*.js --test-coverage-exclude=test/** --test-coverage-lines=90 --test-coverage-functions=90 --test-coverage-branches=80 test/*.test.cjs",
+    "test:integration": "npm run build:test && node --test test/integration/*.test.cjs"
   },
   "devDependencies": {
     "tsup": "^8.0.0",

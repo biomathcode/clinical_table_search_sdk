@@ -92,6 +92,13 @@ const client3 = ClinicalTablesClient.builder()
   .build();
 ```
 
+## Testing
+
+```sh
+npm test              # unit tests + coverage (no network)
+npm run test:integration  # hits the real clinicaltables.nlm.nih.gov API
+```
+
 ## Custom Tables
 
 If you want to call a table that isn’t included as a built-in dataset definition, define it:
