@@ -1,0 +1,48 @@
+{
+  "name": "clinical-table-search-sdk",
+  "version": "0.1.0",
+  "description": "Type-safe client SDK for https://clinicaltables.nlm.nih.gov/ (browser + Node.js)",
+  "license": "MIT",
+  "type": "module",
+  "author":"Pratik Sharma <sharma.pratik2016@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pratik-sharma/clinical-table-search-sdk.git"
+  },
+  "homepage": "https://github.com/pratik-sharma/clinical-table-search-sdk",
+  "bugs": {
+    "url": "https://github.com/pratik-sharma/clinical-table-search-sdk/issues"
+  },
+  "keywords": [
+    "clinical-table-search-sdk",
+    "clinical-tables",
+    "clinical-tables-sdk",
+    "clinical-tables-search-sdk",
+    "clinical-tables-search"
+  ],
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "build:test": "tsc -p tsconfig.test.json",
+    "test": "npm run build:test && node --test --experimental-test-coverage --test-coverage-include=dist-test/lib/**/*.js --test-coverage-exclude=test/** --test-coverage-lines=90 --test-coverage-functions=90 --test-coverage-branches=80 test/*.test.cjs"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.5.0"
+  }
+}
