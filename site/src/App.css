@@ -212,7 +212,7 @@
   padding: 10px 12px;
   border-radius: 999px;
   border: 1px solid var(--border);
-  background: rgba(37, 37, 37, 0.55);
+  background: transparent;
   color: var(--text);
   text-decoration: none;
   cursor: pointer;
@@ -257,7 +257,7 @@
   padding: 6px 10px;
   border-radius: 999px;
   border: 1px solid var(--border);
-  background: rgba(37, 37, 37, 0.55);
+  background: transparent;
   color: var(--muted);
   font-size: 13px;
 }
@@ -277,7 +277,7 @@
 }
 
 .mono.urlBox {
-  background: rgba(37, 37, 37, 0.55);
+  background: transparent;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 10px 12px;
@@ -312,7 +312,7 @@
   padding: 7px 8px 7px 10px;
   border-radius: 999px;
   border: 1px solid var(--border);
-  background: rgba(37, 37, 37, 0.55);
+  background: transparent;
 }
 
 .chipText {
@@ -344,7 +344,7 @@
 .fieldList {
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
-  background: rgba(37, 37, 37, 0.55);
+  background: transparent;
   max-height: 220px;
   overflow: auto;
   margin-top: 10px;
@@ -400,7 +400,7 @@
 .efList {
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
-  background: rgba(37, 37, 37, 0.55);
+  background: transparent;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -450,7 +450,7 @@
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 10px 12px;
-  background: rgba(37, 37, 37, 0.55);
+  background: transparent;
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -493,7 +493,7 @@
   display: inline-flex;
   border: 1px solid var(--border);
   border-radius: 999px;
-  background: rgba(37, 37, 37, 0.55);
+  background: transparent;
   overflow: hidden;
 }
 
@@ -516,7 +516,7 @@
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
-  background: rgba(37, 37, 37, 0.55);
+  background: transparent;
 }
 
 .codeHeader {
@@ -552,7 +552,7 @@
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 12px;
-  background: rgba(37, 37, 37, 0.55);
+  background: transparent;
 }
 
 .callout.danger {
@@ -593,7 +593,7 @@
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 10px 12px;
-  background: rgba(37, 37, 37, 0.55);
+  background: transparent;
 }
 
 .statKey {
@@ -637,7 +637,7 @@
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 10px 12px;
-  background: rgba(37, 37, 37, 0.55);
+  background: transparent;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -697,7 +697,7 @@
 .autoList {
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  background: rgba(37, 37, 37, 0.55);
+  background: transparent;
   padding: 10px;
   display: flex;
   flex-direction: column;
